@@ -2675,7 +2675,7 @@ if (isBan) throw mess.ban
 
 case 'swm': case 'stickerwm': case 'wm': {
 if (isBan) throw mess.ban
-if (!args.join(" ")) return m.reply(`Example :\n${prefix}swm drips love | tuna`)
+if (!args.join(" ")) return m.reply(`Example :\n${prefix}swm Gerall | Yyy`)
 if (!isInventoryLimit){ addInventoriLimit(m.sender) }
             if (isLimit < 1) return m.reply(mess.endLimit)
             kurangLimit(m.sender, 1)
